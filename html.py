@@ -21,3 +21,4 @@ headerlogin = """
     <button onclick="window.location.href='/login'"><span class="account"><img
             src="/static/logo/o-white.png" alt="Login"><h6 style="color:white; margin-top: 7px;">Login</h6></span>
     </button>"""
+
