@@ -90,9 +90,6 @@ input {
     border-radius: 10px;
     border: 2px solid #0047abff;
     padding: 10px;
-    &:in {
-        border: none;
-    }
 }
 
 hr {
