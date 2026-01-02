@@ -44,7 +44,7 @@
         | Linux (pacman/Arch Based) | ```sudo pacman -S python```<br/>```python --version```    |
         | macOS (Homebrew)          | `brew install python`                                     |
 
-Type in PowerShell/Terminal (Valid for all OSes) : `python3 --version`. If you get something like `Python 3.13.X`or higher, you successfully installed Python3
+      Type in PowerShell/Terminal (Valid for all OSes) : `python3 --version`. If you get something like `Python 3.13.X`or higher, you successfully installed Python3
 
 
 - PostgreSQL
