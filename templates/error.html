@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenHRX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="menuheader">{{ local.header | safe }}</div>
+
+<div class="content">
+    <div class="overlay active">
+        <div class="glasspopup">
+            <h1>Sorry,</h1>
+            <h2>an error has occured</h2>
+            <hr>
+            <h3>More info about the error:</h3>
+            <p>{{ error }}</p>
+            <h3>Report it to your administrator/IT team</h3>
+            <button onclick="window.location.assign(window.location.href);">Try again</button>
+            <button onclick="window.location.href='/'">Back to Home</button>
+            <button onclick="window.location.href='/employees/view/all/list'">Back to Employee List</button>
+        </div>
+    </div>
+</div>
+<div id="footer">{{ local.footer | safe }}</div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OpenHRX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="menuheader">{{ local.header | safe }}</div>
+
+<div class="content">
+    <h1>OpenHRX. First Header</h1>
+    <h2>OpenHRX. Second Header</h2>
+    <h3>OpenHRX. Third Header</h3>
+    <h4>OpenHRX. Fourth Header</h4>
+    <h5>OpenHRX. Fifth Header</h5>
+    <h6>OpenHRX. Sixth Header</h6>
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="openhrx">Doloremque ex laudantium odio.</a>
+        Aliquam, cum deleniti dolor
+        facere ipsa iusto nemo nobis odio sapiente suscipit? Aliquid atque eligendi esse molestias tenetur?</p>
+    <button>OK</button>
+    <button>Cancel</button>
+    <button>This is a long text</button>
+    <div class="glass">
+        <p>Confirm changes?</p><br>
+        <button>Yes</button>
+        <button>Cancel</button>
+    </div>
+    <form action="base.html">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <button type="submit" class="submitButton">✓</button>
+    </form>
+    <div class="overlay">
+        <div class="glass popup">
+            <p>Hi, <br>How are you?</p>
+            <br>
+            <button>Hi I'm fine and you?</button>
+            <button>Leave me alone</button>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel lobortis odio. In in nisi viverra, mollis
+        lacus eu, mattis lorem. Vestibulum pulvinar efficitur odio eu sollicitudin. Mauris diam velit, laoreet vitae
+        placerat in, interdum at quam. In enim lorem, suscipit a bibendum quis, molestie quis neque. Sed luctus elit eu
+        risus porta malesuada. Praesent accumsan congue mi, non commodo justo viverra sit amet. Duis vulputate ut ligula
+        et cursus. Aenean eu efficitur leo, porta vulputate turpis. In vitae felis lorem. Fusce ut elit nunc. Aliquam
+        turpis quam, ullamcorper a pharetra vitae, congue ut tellus. Mauris vitae ligula at massa molestie varius ac
+        convallis leo. Suspendisse interdum nisi sit amet augue laoreet semper.
+
+        Phasellus a quam quis lacus volutpat vehicula ac eget tellus. Donec et nisi eros. Ut porta, mi sed rutrum
+        pharetra, nunc justo viverra risus, vitae bibendum odio neque non magna. Integer tempor dictum mauris, faucibus
+        eleifend leo tempus sit amet. Pellentesque sed sapien et lacus ultrices tempor. Pellentesque elit sapien,
+        malesuada at nisl ut, congue ultrices tortor. Nulla nibh odio, commodo at tellus at, gravida auctor ipsum.
+        Nullam mattis, ex in euismod pulvinar, arcu sem lobortis magna, in condimentum tortor dolor sit amet quam. In
+        posuere rutrum mi eget lobortis. Maecenas vehicula nisl sit amet blandit accumsan. Aliquam efficitur euismod
+        ultrices. Sed in pellentesque massa, at interdum leo.
+
+        Nunc vitae magna luctus arcu egestas tempus non vel lacus. Aenean egestas leo ipsum, sollicitudin iaculis massa
+        dapibus quis. Aliquam est diam, pulvinar vitae dignissim eget, blandit at orci. Fusce eu risus nunc. Nulla
+        scelerisque lectus a facilisis mattis. Pellentesque vel dapibus tortor. Sed molestie convallis neque, ut viverra
+        metus varius at. Aliquam eu consectetur elit. Integer scelerisque ornare hendrerit.
+
+        Sed et quam erat. Integer euismod dictum nulla. Aliquam hendrerit vulputate erat, pretium pulvinar nulla. Donec
+        consequat, dolor vel faucibus interdum, lorem odio sagittis ante, sed viverra ligula purus at lacus. Cras orci
+        urna, viverra id ipsum et, tincidunt tincidunt dolor. Cras a ultrices mauris, quis fermentum odio. Nunc ut metus
+        euismod, ullamcorper nulla quis, hendrerit massa. Pellentesque fringilla luctus maximus. Ut sed consectetur
+        quam. Duis varius auctor lectus eu tincidunt. Sed quis tortor eget nisi rhoncus dictum et et tellus. Curabitur
+        interdum luctus tempor. Vivamus eu orci quis nisi commodo varius eget posuere odio. Sed id finibus elit. Mauris
+        sit amet eros consectetur, tincidunt libero non, convallis quam. Pellentesque leo mi, accumsan ut gravida quis,
+        finibus non tortor.
+
+        Donec scelerisque dui quis risus hendrerit fringilla. Morbi sit amet turpis aliquet, ullamcorper nisl vitae,
+        posuere neque. Integer dapibus dolor vitae ante faucibus, nec pulvinar sem viverra. Nullam convallis suscipit
+        purus, ut efficitur sem dignissim nec. In augue urna, tempus eu massa nec, vehicula fringilla nunc. Maecenas
+        ullamcorper posuere nulla a pulvinar. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+        cubilia curae; Nam posuere scelerisque fermentum. Maecenas leo elit, luctus vel velit in, ullamcorper vulputate
+        mauris. Vivamus volutpat nisi sagittis nibh fermentum mattis. Aliquam eleifend erat non gravida maximus. Duis
+        non lectus id sem mollis viverra. Phasellus.</p>
+</div>
+<div id="footer">{{ local.footer | safe }}</div>
+</body>
+</html>
